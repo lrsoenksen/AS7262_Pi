@@ -2,15 +2,15 @@
 
 from distutils.core import setup
 
-setup(name            = "adafruit_tlc59711",
+setup(name            = "adafruit_as7262",
       version         = "1.0.0",
-      description     = "Python library to control Adafruit TLC59711 boards",
+      description     = "Python library to control Adafruit or Sparkfun as7262 boards",
       requires        = ['spidev'],
-      author          = "Tony DiCola and modified by Luis Soenksen",
-      author_email    = "tony@tonydicola.com",
+      author          = "Shoe-Pi and modified by Luis Soenksen",
+      author_email    = "",
       maintainer      = "Luis Soenksen",
       maintainer_email= "soenksen@mit.edu",
       license         = "MIT",
-      url             = "https://github.com/lrsoenksen/Adafruit_Python_TLC59711",
-      py_modules      = ['adafruit_tlc59711'],
+      url             = "https://github.com/lrsoenksen/Adafruit_Python_AS7262",
+      py_modules      = ['adafruit_as7262'],
 )
