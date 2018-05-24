@@ -1,18 +1,14 @@
 
-# AS7262-Pi: 6 colour spectroscopy for the Raspberry Pi!
-
-![Rainbows](rainbows.gif)
-
+# Adafruit_Python_AS7262: 6 colour spectroscopy for the Raspberry Pi
+Author: Shoe-Pi(original), modified by Luis Soenksen
 **Introduction**
 
 This is a set of functions for using the [Sparkfun AS7262 Visible Spectrometer Breakout](https://www.sparkfun.com/products/14347) with the Raspberry Pi.  Please note that these were written for and have only been tested on the *visible* spectrometer board, not the similar AS7263 near infra-red board.
 
 There are 5 files in this repo: 
 1) README.md is the file you're currently reading and contains information about how to use this repo.
-2) AS7262_Pi.py contains all of the functions which make the AS7262 board work with the Pi.
+2) Adafruit_Python_AS7262.py contains all of the functions which make the AS7262 board work with the Pi.
 3) Basic_example.py is, well, a basic example of how to use the AS7262 board with the Pi.
-4) UHHD_spectrometer.py is a more advanced demo script which displays the readings of the AS7262 on a Pimoroni Unicorn HAT HD in a bar chart-like format.  You can see it in action in the .gif at the top of this page.
-5) Rainbows.gif is is the .gif at the top of the page, made using the UHHD_spectrometer.py script.
 
 The AS7262 communicates with the Pi using the I2C bus.  The I2C address of the device is 0x49, and the script requires the *SMBus*, *time* and *struct* Python modules, all installed on the Pi by default.
 
