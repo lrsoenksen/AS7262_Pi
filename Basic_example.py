@@ -6,7 +6,7 @@ a list called "results", which is then printed in a mostly human-readable form.
 """
 
 #Import the script for the board
-import AS7262_Pi as spec
+import adafruit_as7262 as spec
 
 #Reboot the spectrometer, just in case
 spec.soft_reset()
